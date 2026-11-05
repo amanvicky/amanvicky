@@ -44,4 +44,6 @@ DevOps foundation: Ansible · Jenkins · Terraform · Kubernetes · Bash · AWS 
 
 ## 📫 Reach me
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aman%20Elugam-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-elugam/)
+
 Open an issue on any repo, or [follow me](https://github.com/amanvicky) — I'm currently building a portfolio site and shipping new agents weekly.
