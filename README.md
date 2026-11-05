@@ -20,6 +20,7 @@ Next.js 16 · React 19 · Prisma 7 · strict TypeScript · Vitest + Playwright �
 
 ### 👁 [OpenBroadcast](https://github.com/amanvicky/Open-Broadcast) · [Gazester](https://github.com/amanvicky/Gazester)
 Real-time **eye gaze correction** so you look at the camera on video calls — even while reading notes. OpenBroadcast runs on **CPU at 30fps** (no GPU), with a virtual camera for Zoom/Teams/OBS, iris segmentation and a calibration wizard.
+**Try it right now, no install:** [openbroadcast-web](https://amanvicky.github.io/openbroadcast-web/) — the browser demo.
 
 ### 🕹 [GOD MODE](https://github.com/amanvicky/Skill-God-Mode)
 **An AI software company in a single Claude skill.** PM → dev squads → red-team waves → CEO scoring — and nothing ships without the DIAMOND FINISH pass: *"Proof or it didn't happen."* First production run: complete, tested game shipped in ~23 minutes.
