@@ -34,9 +34,32 @@ A PM writes acceptance criteria, rival dev squads build, a red team attacks the 
 
 AutoHotkey script that types your clipboard with human timing, typos and all. For demos and remote desktop sessions where instant typing looks fake.
 
-### Also on GitHub
+## The rest of the shelf
 
-[insta-followers-analyzer](https://github.com/amanvicky/Insta-followers-analyzer) (checks Instagram accounts, exports CSV) · [100 SQL projects](https://github.com/amanvicky/SQL) · DevOps-era repos from 2022, still up unedited: [Jenkins](https://github.com/amanvicky/Jenkins-CI-CD), [Terraform](https://github.com/amanvicky/Tf-EC2), [Kubernetes](https://github.com/amanvicky/kubernetes), [Bash](https://github.com/amanvicky/Bash-scripting)
+### Apps & data
+
+| Repo | What's in it |
+|---|---|
+| [openbroadcast-web](https://github.com/amanvicky/openbroadcast-web) | The browser gaze-corrector — MediaPipe face landmarks, WASM-speed math, zero upload |
+| [Insta-followers-analyzer](https://github.com/amanvicky/Insta-followers-analyzer) | Checks who doesn't follow back, exports CSV, fully documented run-through in the README |
+| [SQL](https://github.com/amanvicky/SQL) | 100 self-contained practice databases — hospital to crypto exchange, one disciplined 5-file format each |
+
+### The DevOps year — one deploy, four levels of automation
+
+The same "get a website running" idea, climbed from typed commands to a cluster. That ladder is the most honest thing I can show about how I learn:
+
+| Repo | Level | What's inside |
+|---|---|---|
+| [AWS-basic](https://github.com/amanvicky/AWS-basic) | 0 — manual | EC2 by CLI + `stress` against CloudWatch alarms |
+| [Bash-scripting](https://github.com/amanvicky/Bash-scripting) | 1 — script | 57 scripts incl. a Tomcat installer that branches per OS and an SSH fleet loop |
+| [Python](https://github.com/amanvicky/Python) | 1.5 — scriptable | Fundamentals + idempotent user provisioning + a first Ansible playbook |
+| [cloudformation-practice](https://github.com/amanvicky/cloudformation-practice) | 2 — declarative | Ten templates incl. a full `cfn-init` bootstrap |
+| [Tf-EC2](https://github.com/amanvicky/Tf-EC2) | 2 — declarative | 211 dated Terraform cards: VPC → subnet → SG → instance |
+| [Docker](https://github.com/amanvicky/Docker) | 3 — container | The first container exercise, three shutdown behaviors compared |
+| [docker-in-depth](https://github.com/amanvicky/docker-in-depth) | 3 — container | CMD vs ENTRYPOINT lab, multistage builds, an Apache site container |
+| [Jenkins-CI-CD](https://github.com/amanvicky/Jenkins-CI-CD) | 4 — pipeline | Full CI/CD: Sonar gate → Nexus → Docker → ECR → ECS |
+| [kubernetes](https://github.com/amanvicky/kubernetes) | 5 — cluster | kops cluster on AWS, every object applied and broken on purpose |
+| [Git](https://github.com/amanvicky/Git) | foundation | An unedited shell-history transcript of learning Git |
 
 ## Stack
 
