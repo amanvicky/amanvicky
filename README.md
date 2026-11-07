@@ -76,5 +76,6 @@ The same "get a website running" idea, climbed from typed commands to a cluster.
 
 - Junior software engineer, Hyderabad
 - Open to work — fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/aman-elugam/)
+- One-page résumé: [amanvicky.github.io/resume](https://amanvicky.github.io/resume)
 - HackerRank SQL (Advanced) certified
 - Building small tools most weeks; the browser demo above is the newest one
