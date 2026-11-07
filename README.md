@@ -12,7 +12,7 @@ Most demos stop at "it should work". Mine end with test output or a source link.
 
 ### [Genesis](https://github.com/amanvicky/Genesis-Business-Decoding-Engine) — venture due diligence by a team of agents
 
-Give it a company or just an idea and it returns a 14-tab report: business model, compliance per country, revenue from SEC filings, pricing, plus a red team that argues back. Every claim links a source. Runs on your machine, no API keys. Python, FastAPI, Next.js, MIT.
+Give it a company or just an idea and it returns an 18-tab report: business model, compliance per country, revenue from SEC filings, pricing, plus a red team that argues back. Every claim links a source. Runs on your machine, no API keys. Python, FastAPI, Next.js, MIT.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/amanvicky/Genesis-Business-Decoding-Engine/main/docs/genesis-demo.gif" alt="Genesis decoding a company" width="85%">
