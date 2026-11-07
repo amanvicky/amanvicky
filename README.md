@@ -44,6 +44,13 @@ AutoHotkey script that types your clipboard with human timing, typos and all. Fo
 | [Insta-followers-analyzer](https://github.com/amanvicky/Insta-followers-analyzer) | Checks who doesn't follow back, exports CSV, fully documented run-through in the README |
 | [SQL](https://github.com/amanvicky/SQL) | 100 self-contained practice databases — hospital to crypto exchange, one disciplined 5-file format each |
 
+### Small tools, built with tests from day one
+
+| Repo | What's in it |
+|---|---|
+| [edgar-rev](https://github.com/amanvicky/edgar-rev) | One command, ten years of a company's revenue from SEC EDGAR — zero dependencies, CI on two Python versions |
+| [gaze-meter](https://github.com/amanvicky/gaze-meter) | Attention analytics from a webcam — blinks/min, off-center %, focus score; the measurement half of the OpenBroadcast family |
+
 ### The DevOps year — one deploy, four levels of automation
 
 The same "get a website running" idea, climbed from typed commands to a cluster. That ladder is the most honest thing I can show about how I learn:
@@ -78,4 +85,4 @@ The same "get a website running" idea, climbed from typed commands to a cluster.
 - Open to work — fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/aman-elugam/)
 - One-page résumé: [amanvicky.github.io/resume](https://amanvicky.github.io/resume)
 - HackerRank SQL (Advanced) certified
-- Building small tools most weeks; the browser demo above is the newest one
+- Building small tools most weeks — the newest: [edgar-rev](https://github.com/amanvicky/edgar-rev) (SEC revenue CLI) and gaze-meter (attention analytics)
