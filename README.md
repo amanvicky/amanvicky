@@ -51,6 +51,13 @@ AutoHotkey script that types your clipboard with human timing, typos and all. Fo
 | [edgar-rev](https://github.com/amanvicky/edgar-rev) | One command, ten years of a company's revenue from SEC EDGAR — zero dependencies, CI on two Python versions |
 | [gaze-meter](https://github.com/amanvicky/gaze-meter) | Attention analytics from a webcam — blinks/min, off-center %, focus score; the measurement half of the OpenBroadcast family |
 
+### Getting into AI? Start here
+
+| Repo | What's in it |
+|---|---|
+| [attention-from-scratch](https://github.com/amanvicky/attention-from-scratch) | Self-attention in ~90 lines of NumPy, every matrix explained — no torch, no API keys, 11 property tests |
+| [fine-tune-prep](https://github.com/amanvicky/fine-tune-prep) | Validate, split and convert chat datasets before you pay for a fine-tune — zero dependencies, ships with a sample |
+
 ### The DevOps year — one deploy, four levels of automation
 
 The same "get a website running" idea, climbed from typed commands to a cluster. That ladder is the most honest thing I can show about how I learn:
