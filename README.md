@@ -8,6 +8,8 @@ Most demos stop at "it should work". Mine end with test output or a source link.
 
 **[OpenBroadcast Web](https://amanvicky.github.io/openbroadcast-web/)** — real-time eye gaze correction in your browser. Allow the camera, look away from the screen like you're reading notes, then turn the correction on and watch your eyes get pulled back to the lens. The face model downloads once (~3 MB), every frame is processed on your device, nothing is uploaded.
 
+**[Tokenizer Playground](https://amanvicky.github.io/tokenizer-playground/)** — type anything and watch a byte-level BPE tokenizer chop it into colored pieces, live. 400 merges trained on the repo's own corpus; the JS encoder is proven token-identical to the Python trainer. Nothing is uploaded.
+
 ## Projects
 
 ### [Genesis](https://github.com/amanvicky/Genesis-Business-Decoding-Engine) — venture due diligence by a team of agents
@@ -50,6 +52,7 @@ AutoHotkey script that types your clipboard with human timing, typos and all. Fo
 |---|---|
 | [edgar-rev](https://github.com/amanvicky/edgar-rev) | One command, ten years of a company's revenue from SEC EDGAR — zero dependencies, CI on two Python versions |
 | [gaze-meter](https://github.com/amanvicky/gaze-meter) | Attention analytics from a webcam — blinks/min, off-center %, focus score; the measurement half of the OpenBroadcast family |
+| [csv-clinic](https://github.com/amanvicky/csv-clinic) | Diagnose and clean messy CSVs from the terminal — inspect types/blanks/duplicates, then fix with a full change report |
 
 ### Getting into AI? Start here
 
@@ -57,6 +60,7 @@ AutoHotkey script that types your clipboard with human timing, typos and all. Fo
 |---|---|
 | [attention-from-scratch](https://github.com/amanvicky/attention-from-scratch) | Self-attention in ~90 lines of NumPy, every matrix explained — no torch, no API keys, 11 property tests |
 | [fine-tune-prep](https://github.com/amanvicky/fine-tune-prep) | Validate, split and convert chat datasets before you pay for a fine-tune — zero dependencies, ships with a sample |
+| [tokenizer-playground](https://github.com/amanvicky/tokenizer-playground) | Watch BPE chop text into tokens, live — trainer + browser encoder proven identical, token by token |
 
 ### The DevOps year — one deploy, four levels of automation
 
