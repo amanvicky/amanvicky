@@ -54,6 +54,15 @@ AutoHotkey script that types your clipboard with human timing, typos and all. Fo
 | [gaze-meter](https://github.com/amanvicky/gaze-meter) | Attention analytics from a webcam — blinks/min, off-center %, focus score; the measurement half of the OpenBroadcast family |
 | [csv-clinic](https://github.com/amanvicky/csv-clinic) | Diagnose and clean messy CSVs from the terminal — inspect types/blanks/duplicates, then fix with a full change report |
 
+### Security — real-time, defensive
+
+Tools for systems you own or are authorized to monitor — run at your own responsibility.
+
+| Repo | What's in it |
+|---|---|
+| [honeypot-lite](https://github.com/amanvicky/honeypot-lite) | A real-time trap for scanners and brute-forcers — three fake services, live attack feed, JSONL forensics |
+| [file-sentinel](https://github.com/amanvicky/file-sentinel) | File-integrity watching with a ransomware canary — SHA-256 baselines, live diffs, burst alerts, optional webhook |
+
 ### Getting into AI? Start here
 
 | Repo | What's in it |
