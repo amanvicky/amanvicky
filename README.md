@@ -6,6 +6,8 @@ Most demos stop at "it should work". Mine end with test output or a source link.
 
 ## Try something right now, no install
 
+**[Cleanroom](https://amanvicky.github.io/cleanroom/)** — paste a GitHub repo link and **run it live in your browser**: a disposable Python VM boots inside the tab, the repo's files load into memory, and you type Python against it — real-time, free, no install, no account, no server. When you close the tab, nothing remains; there was never anything on your disk to begin with.
+
 **[OpenBroadcast Web](https://amanvicky.github.io/openbroadcast-web/)** — real-time eye gaze correction in your browser. Allow the camera, look away from the screen like you're reading notes, then turn the correction on and watch your eyes get pulled back to the lens. The face model downloads once (~3 MB), every frame is processed on your device, nothing is uploaded.
 
 **[Tokenizer Playground](https://amanvicky.github.io/tokenizer-playground/)** — type anything and watch a byte-level BPE tokenizer chop it into colored pieces, live. 400 merges trained on the repo's own corpus; the JS encoder is proven token-identical to the Python trainer. Nothing is uploaded.
@@ -21,6 +23,10 @@ Give it a company or just an idea and it returns an 18-tab report: business mode
 <p align="center">
   <img src="https://raw.githubusercontent.com/amanvicky/Genesis-Business-Decoding-Engine/main/docs/genesis-demo.gif" alt="Genesis decoding a company" width="85%">
 </p>
+
+### [cleanroom](https://github.com/amanvicky/cleanroom) — run any repo in a disposable sandbox, leave zero trace
+
+The AI-agent era means code from random repos gets executed all day — exactly the flow supply-chain attacks target. Cleanroom guards that loop: the [browser runner](https://amanvicky.github.io/cleanroom/) boots CPython (WebAssembly) inside the tab with no disk access and no network sockets; the CLI adds a static triage report (install hooks, secrets, typosquats, shell-profile persistence), a whitelist environment that hides every secret-shaped variable, an outbound-network guard, and a teardown that re-verifies it left zero residue. The scan engine exists twice — Python and JavaScript — and CI proves every finding identical. 20 real-process tests on Ubuntu and Windows.
 
 ### [leyp](https://github.com/amanvicky/leyp) — a job hunt tool I made for myself
 
@@ -65,6 +71,14 @@ AutoHotkey script that types your clipboard with human timing, typos and all. Fo
 | [tokenizer-playground](https://github.com/amanvicky/tokenizer-playground) | Watch BPE chop text into tokens, live — trainer + browser encoder proven identical, token by token |
 | [spamcheck](https://github.com/amanvicky/spamcheck) | A trained classifier (98.47% on real data) shipped as one JSON file — Python CLI + browser demo, parity-gated |
 
+### Security — real-time, defensive
+
+| Repo | What's in it |
+|---|---|
+| [cleanroom](https://github.com/amanvicky/cleanroom) | Paste a repo link → risk report → run it in a disposable sandbox → wipe it clean. Browser VM + CLI, live at [amanvicky.github.io/cleanroom](https://amanvicky.github.io/cleanroom/) |
+| [honeypot-lite](https://github.com/amanvicky/honeypot-lite) | Real SSH/Telnet/HTTP traps that log attacker behavior to a live feed — spin one up in minutes, 7 socket-level tests |
+| [file-sentinel](https://github.com/amanvicky/file-sentinel) | Watches a folder for the mass-encryption pattern (ransomware's first move) and can webhook you — 9 tests incl. a live canary run |
+
 ### The DevOps year — one deploy, four levels of automation
 
 The same "get a website running" idea, climbed from typed commands to a cluster. That ladder is the most honest thing I can show about how I learn:
@@ -99,4 +113,4 @@ The same "get a website running" idea, climbed from typed commands to a cluster.
 - Open to work — fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/aman-elugam/)
 - One-page résumé: [amanvicky.github.io/resume](https://amanvicky.github.io/resume)
 - HackerRank SQL (Advanced) certified
-- Building small tools most weeks — the newest: [edgar-rev](https://github.com/amanvicky/edgar-rev) (SEC revenue CLI) and gaze-meter (attention analytics)
+- Building small tools most weeks — the newest: [cleanroom](https://github.com/amanvicky/cleanroom) (paste a repo link, run it live in your browser, wipe it clean) and [spamcheck](https://github.com/amanvicky/spamcheck) (a trained spam classifier)
