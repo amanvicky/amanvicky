@@ -10,6 +10,8 @@ Most demos stop at "it should work". Mine end with test output or a source link.
 
 **[Tokenizer Playground](https://amanvicky.github.io/tokenizer-playground/)** — type anything and watch a byte-level BPE tokenizer chop it into colored pieces, live. 400 merges trained on the repo's own corpus; the JS encoder is proven token-identical to the Python trainer. Nothing is uploaded.
 
+**[Spamcheck](https://amanvicky.github.io/spamcheck/)** — a spam classifier actually *trained* on 5,574 real SMS messages (98.47% held-out accuracy), running live in your browser. The chips show which words push the verdict and by how much. The same model runs in the repo's terminal CLI — a CI gate proves both agree to nine decimal places.
+
 ## Projects
 
 ### [Genesis](https://github.com/amanvicky/Genesis-Business-Decoding-Engine) — venture due diligence by a team of agents
@@ -54,15 +56,6 @@ AutoHotkey script that types your clipboard with human timing, typos and all. Fo
 | [gaze-meter](https://github.com/amanvicky/gaze-meter) | Attention analytics from a webcam — blinks/min, off-center %, focus score; the measurement half of the OpenBroadcast family |
 | [csv-clinic](https://github.com/amanvicky/csv-clinic) | Diagnose and clean messy CSVs from the terminal — inspect types/blanks/duplicates, then fix with a full change report |
 
-### Security — real-time, defensive
-
-Tools for systems you own or are authorized to monitor — run at your own responsibility.
-
-| Repo | What's in it |
-|---|---|
-| [honeypot-lite](https://github.com/amanvicky/honeypot-lite) | A real-time trap for scanners and brute-forcers — three fake services, live attack feed, JSONL forensics |
-| [file-sentinel](https://github.com/amanvicky/file-sentinel) | File-integrity watching with a ransomware canary — SHA-256 baselines, live diffs, burst alerts, optional webhook |
-
 ### Getting into AI? Start here
 
 | Repo | What's in it |
@@ -70,6 +63,7 @@ Tools for systems you own or are authorized to monitor — run at your own respo
 | [attention-from-scratch](https://github.com/amanvicky/attention-from-scratch) | Self-attention in ~90 lines of NumPy, every matrix explained — no torch, no API keys, 11 property tests |
 | [fine-tune-prep](https://github.com/amanvicky/fine-tune-prep) | Validate, split and convert chat datasets before you pay for a fine-tune — zero dependencies, ships with a sample |
 | [tokenizer-playground](https://github.com/amanvicky/tokenizer-playground) | Watch BPE chop text into tokens, live — trainer + browser encoder proven identical, token by token |
+| [spamcheck](https://github.com/amanvicky/spamcheck) | A trained classifier (98.47% on real data) shipped as one JSON file — Python CLI + browser demo, parity-gated |
 
 ### The DevOps year — one deploy, four levels of automation
 
