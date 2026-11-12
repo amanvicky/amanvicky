@@ -6,7 +6,7 @@ Most demos stop at "it should work". Mine end with test output or a source link.
 
 ## Try something right now, no install
 
-**[Cleanroom](https://amanvicky.github.io/cleanroom/)** — paste a GitHub repo link and **run it live in your browser**: a disposable Python VM boots inside the tab, the repo's files load into memory, and you type Python against it — real-time, free, no install, no account, no server. When you close the tab, nothing remains; there was never anything on your disk to begin with.
+**[Cleanroom](https://amanvicky.github.io/cleanroom/)** — paste a GitHub repo link and **run it live in your browser**: a disposable Python VM boots inside the tab, the repo's files load into memory, and you use the repo against it — real-time, free, no install, no account, no server. GUI apps run on an app screen: tkinter apps open a real window of HTML widgets right in the page. When you close the tab, nothing remains; there was never anything on your disk to begin with.
 
 **[OpenBroadcast Web](https://amanvicky.github.io/openbroadcast-web/)** — real-time eye gaze correction in your browser. Allow the camera, look away from the screen like you're reading notes, then turn the correction on and watch your eyes get pulled back to the lens. The face model downloads once (~3 MB), every frame is processed on your device, nothing is uploaded.
 
@@ -26,7 +26,7 @@ Give it a company or just an idea and it returns an 18-tab report: business mode
 
 ### [cleanroom](https://github.com/amanvicky/cleanroom) — run any repo in a disposable sandbox, leave zero trace
 
-The AI-agent era means code from random repos gets executed all day — exactly the flow supply-chain attacks target. Cleanroom guards that loop: the [browser runner](https://amanvicky.github.io/cleanroom/) boots CPython (WebAssembly) inside the tab with no disk access and no network sockets; the CLI adds a static triage report (install hooks, secrets, typosquats, shell-profile persistence), a whitelist environment that hides every secret-shaped variable, an outbound-network guard, and a teardown that re-verifies it left zero residue. The scan engine exists twice — Python and JavaScript — and CI proves every finding identical. 20 real-process tests on Ubuntu and Windows.
+The AI-agent era means code from random repos gets executed all day — exactly the flow supply-chain attacks target. Cleanroom guards that loop: the [browser runner](https://amanvicky.github.io/cleanroom/) boots CPython (WebAssembly) inside the tab with no disk access and no network sockets; the CLI adds a static triage report (install hooks, secrets, typosquats, shell-profile persistence), a whitelist environment that hides every secret-shaped variable, an outbound-network guard, and a teardown that re-verifies it left zero residue. GUI repos run on an app screen — tkinter apps render as real HTML widgets in the page, static web apps open in a no-origin sandboxed frame, and in this-PC mode a full-stack server runs as a real process with its own UI embedded at 127.0.0.1. The scan engine exists twice — Python and JavaScript — and CI proves every finding identical. 34 real-process tests on Ubuntu and Windows.
 
 ### [leyp](https://github.com/amanvicky/leyp) — a job hunt tool I made for myself
 
